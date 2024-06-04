@@ -11,9 +11,9 @@ int main (){
         array<int, 3> data = {6, 7, 8};
         cout << data.at(5) << endl;
     }
-    catch(const std::exception& e)
+    catch(exception& e)
     {
-        std::cerr << e.what() << '\n';
+        cout << e.what() << '\n';
     }
     
 }
