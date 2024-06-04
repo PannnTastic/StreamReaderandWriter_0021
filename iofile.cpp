@@ -7,4 +7,6 @@ int main (){
     string baris;
 
     ofstream outfile;
+
+    outfile.open("contoh.txt");
 }
