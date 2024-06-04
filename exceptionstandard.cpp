@@ -15,5 +15,6 @@ int main (){
     {
         cout << e.what() << '\n';
     }
+    cout << "Baris Program Akhir\n";
     
 }
